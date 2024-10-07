@@ -1,21 +1,22 @@
 *{
     margin: 0;
     text-align: center;
+    background-color: grey;
 }
 #container{
     margin: 0 auto;
-    height: 700px;
-    width: 500px;
+    height: 650px;
+    width: 650px;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
-.row{
-    width: 35px;
-    height: 35px;
-    border: 2px solid black;
-    flex: 1 1 auto;
+.square{
+    background-color: white;
 }
 
 #gridSize {
