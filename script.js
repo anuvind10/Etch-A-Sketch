@@ -32,7 +32,10 @@ function colorGrid() {
 
     GRIDS.forEach((grid) => {
         grid.addEventListener("mouseenter", (event) => {
-            event.target.style.backgroundColor = "red";
+            var red = Math.floor(Math.random() * 256);
+            var green = Math.floor(Math.random() * 256);
+            var blue = Math.floor(Math.random() * 256);
+            event.target.style.backgroundColor = "rgb("+`${red}`+", "+`${green}`+", "+`${blue}`+")";
         });
     });
 }
