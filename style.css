@@ -19,13 +19,17 @@
     background-color: white;
 }
 
-#gridSize {
+#gridSize, #clearGrid {
     height: 40px;
     width: 100px;
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 16px;
     color: white;
     background-color: black;
     border: 2px solid grey;
     border-radius: 8px;
+}
+
+h1 {
+    margin-top: 20px;
 }
